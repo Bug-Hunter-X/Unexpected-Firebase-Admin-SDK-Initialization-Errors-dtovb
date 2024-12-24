@@ -1,0 +1,3 @@
+# Unexpected Firebase Admin SDK Initialization Errors
+
+This repository demonstrates a common yet often confusing error when initializing the Firebase Admin SDK.  The `initializeApp()` function can throw cryptic error messages if the service account credentials are not properly configured or if there are permission issues accessing the service account file. This example shows how to identify and resolve these issues to ensure proper SDK initialization.  The `adminBug.js` file contains the problematic code, and `adminBugSolution.js` provides a corrected and more robust version. 
