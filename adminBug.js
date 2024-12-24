@@ -1,0 +1,1 @@
+The Firebase Admin SDK's `initializeApp()` function might throw an unexpected error if the `credential` object is incorrectly configured or if the service account file is missing or inaccessible.  This can lead to cryptic error messages that aren't immediately obvious.
